@@ -1,0 +1,41 @@
+.app {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 296px;
+}
+
+.header {
+  padding: 20px;
+  width: 375px;
+  height: 148px;
+  box-sizing: border-box;
+}
+
+.logoWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 5px;
+}
+
+.logo {
+  font-family: "Open Sans";
+  line-height: 24px;
+  color: #000000;
+}
+
+.infoIcon {
+  cursor: pointer;
+}
+
+.headerBottom {
+  width: 375px;
+  height: 148px;
+  background: linear-gradient(180deg, #d2333e 0%, #f54b55 100%);
+}
